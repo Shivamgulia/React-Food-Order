@@ -1,0 +1,10 @@
+.itemblock {
+  margin-top: 10px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #f5ac8f;
+  min-width: 60rem;
+  border-radius: 2rem;
+}

@@ -1,0 +1,21 @@
+/* .layoutblock {
+  margin-top: -22px;
+  background-color: beige;
+} */
+
+/* .layBlock {
+  background-color: #f5ac8f;
+  min-height: 90rem;
+  background-size: 75% 50%;
+  width: 100rem;
+  height: 100rem;
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+} */
+
+.layBlock {
+  margin-top: -10px;
+  min-height: 80vh;
+  background-image: url('../../resourses/pexels-gdtography-950241.jpg');
+  background-size: auto;
+  background-repeat: repeat-y;
+}

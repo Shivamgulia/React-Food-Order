@@ -1,0 +1,83 @@
+.navblock {
+  display: flex;
+  background-color: #b94517;
+  font-weight: bolder;
+  width: 100vw;
+}
+
+.navblock h1 {
+  padding-left: 2vw;
+  color: #f5ac8f;
+  font-weight: bolder;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #f5ac8f;
+  color: white;
+  padding: 0.75vw 3vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  padding-top: 5px;
+  padding-left: 80vw;
+}
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
+}
+
+.icon {
+  width: 1.35vw;
+  height: 1.35vw;
+  margin-right: 0.5vw;
+}
+
+.badge {
+  background-color: #b94517;
+  padding: 0.25vw 1vw;
+  border-radius: 25px;
+  margin-left: 1vw;
+  font-weight: bold;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: #92320c;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
