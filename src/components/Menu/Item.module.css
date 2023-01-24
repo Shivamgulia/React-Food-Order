@@ -8,3 +8,33 @@
   min-width: 60rem;
   border-radius: 2rem;
 }
+
+@media only screen and (max-width: 1400px) {
+  .itemblock {
+    min-width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .itemblock {
+    min-width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .itemblock {
+    min-width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+}
+
+@media only screen and (max-width: 550px) {
+}
+
+@media only screen and (max-width: 450px) {
+}
+
+@media only screen and (max-width: 400px) {
+}
