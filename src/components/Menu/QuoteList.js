@@ -12,19 +12,32 @@ function QuoteList() {
     sendRequest();
   }, [sendRequest]);
 
+  function reload() {
+    sendRequest();
+  }
+
   if (error) {
     return <div>{error}</div>;
   }
 
   if (status === 'pending') {
-    return <div>Loading ......</div>;
+    return (
+      <div className={classes.loading}>
+        <h1> Loading ...... </h1>
+      </div>
+    );
   }
 
   return (
     <div className={classes.listblock}>
       {loadedTables &&
         loadedTables.map((item) => (
-          <QuoteItem key={item.id} id={item.id} orders={item.order} />
+          <QuoteItem
+            key={item.id}
+            id={item.id}
+            orders={item.order}
+            reload={reload}
+          />
         ))}
     </div>
   );

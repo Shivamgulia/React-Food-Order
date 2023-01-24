@@ -7,3 +7,8 @@
 .listblock h1 {
   text-align: center;
 }
+
+.loading {
+  text-align: center;
+  color: darkslategray;
+}
