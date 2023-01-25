@@ -9,6 +9,12 @@
   /* max-width: 40rem; */
   max-width: 100vw;
   border-radius: 2rem;
+  border-color: white;
+  border-width: 10px;
+}
+
+.qitemblock h1 {
+  color: white;
 }
 
 .button {

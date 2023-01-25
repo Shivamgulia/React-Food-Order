@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={classes.topblock}>
       <MainNavigation />
-      <Layout>
+      <Layout className={classes.background}>
         <QuoteList />
       </Layout>
     </div>
